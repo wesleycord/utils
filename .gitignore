@@ -1,0 +1,58 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+*.app
+
+# Build output
+/bin/
+/build/
+/dist/
+/out/
+
+# Go build/test artifacts
+*.test
+*.prof
+coverage.out
+coverage.html
+
+# Go workspace
+go.work
+go.work.sum
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# Air
+.air.toml
+
+# Debug
+debug/
+
+# Databases
+*.db
