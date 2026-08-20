@@ -17,6 +17,7 @@ import (
 
 	_ "utils/commands"
 	_ "utils/listeners"
+	_ "utils/modules"
 
 	"utils/internal/core"
 )
